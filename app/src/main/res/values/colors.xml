@@ -7,4 +7,9 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="record_background">#F5F5F5</color>
+    <color name="record_date_and_time_text_color">#B0B0B0</color>
+    <color name="record_playing_time_color">#727272</color>
+    <color name="record_all_time_color">#949494</color>
+    <color name="record_slash_color">#919191</color>
 </resources>
