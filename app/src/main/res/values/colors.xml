@@ -7,6 +7,7 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="alpha">#00FFFFFF</color>
 
 <!--    Record item-->
     <color name="record_background">#F5F5F5</color>
@@ -17,5 +18,6 @@
 
 
     <color name="vk_blue_color">#0077FF</color>
+    <color name="red_stop_color">#F46B61</color>
 
 </resources>
