@@ -40,9 +40,9 @@
 
     <androidx.appcompat.widget.AppCompatImageButton
         android:id="@+id/register_with_vk_btn"
-        android:layout_width="172dp"
-        android:layout_height="30dp"
-        android:background="@drawable/ic_vk_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_vk_full_logo"
         android:elevation="3dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

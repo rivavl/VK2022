@@ -15,5 +15,6 @@
         Или просто продолжить, тогда файлы будут сохраняться на твоем девайсе.
     </string>
     <string name="continue_without_auth_btn_text">Продолжить</string>
+    <string name="your_records_text">Ваши записи</string>
 
 </resources>
