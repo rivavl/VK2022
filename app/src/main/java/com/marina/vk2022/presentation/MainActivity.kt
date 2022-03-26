@@ -1,7 +1,8 @@
-package com.marina.vk2022
+package com.marina.vk2022.presentation
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.marina.vk2022.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
