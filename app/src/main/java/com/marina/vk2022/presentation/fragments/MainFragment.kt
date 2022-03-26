@@ -28,12 +28,14 @@ class MainFragment : Fragment(R.layout.fragment_main) {
 
     private fun setupButtonListeners() {
 
+        //начинаем запись
         binding.startRecordImageBtn.setOnClickListener {
             binding.startRecordImageBtn.visibility = View.GONE
             binding.stopRecordImageBtn.visibility = View.VISIBLE
             startRecord()
         }
 
+        //заканчиваем запись
         binding.stopRecordImageBtn.setOnClickListener {
             binding.startRecordImageBtn.visibility = View.VISIBLE
             binding.stopRecordImageBtn.visibility = View.GONE
