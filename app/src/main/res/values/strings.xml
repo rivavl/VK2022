@@ -1,3 +1,19 @@
 <resources>
     <string name="app_name">VK2022</string>
+
+
+
+<!--    Strings for registration fragment-->
+    <string name="info_greeting">
+        Тебя приветствует приложение Голосовых Заметок!
+    </string>
+    <string name="info_vk">
+        Ты можешь авторизоваться через ВКонтакте,
+        чтобы иметь возможность сохранять свои заметки в документах ВК.
+    </string>
+    <string name="info_local">
+        Или просто продолжить, тогда файлы будут сохраняться на твоем девайсе.
+    </string>
+    <string name="continue_without_auth_btn_text">Продолжить</string>
+
 </resources>
