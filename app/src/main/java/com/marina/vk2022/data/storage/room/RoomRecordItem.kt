@@ -13,7 +13,7 @@ data class RoomRecordItem(
     @ColumnInfo(name = "record_path")
     var recordPath: String = "",
     @ColumnInfo(name = "record_length")
-    var recordLength: Long = 0L,
+    var recordLength: String = "",
     @ColumnInfo(name = "record_creating_time")
     var recordCreatingTime: Long = 0L
 )

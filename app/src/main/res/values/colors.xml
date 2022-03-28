@@ -7,6 +7,8 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="gray">#DADADA</color>
+    <color name="gray_dark">#575757</color>
     <color name="alpha">#00FFFFFF</color>
 
 <!--    Record item-->
@@ -19,5 +21,8 @@
 
     <color name="vk_blue_color">#0077FF</color>
     <color name="red_stop_color">#F46B61</color>
+
+    <color name="stroke_color">#1E88E5</color>
+    <color name="opaque_bg">#61000000</color>
 
 </resources>

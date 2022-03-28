@@ -1,4 +1,4 @@
-package com.marina.vk2022.presentation
+package com.marina.vk2022.domain
 
 import android.os.Handler
 import android.os.Looper

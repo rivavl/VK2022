@@ -16,5 +16,8 @@
     </string>
     <string name="continue_without_auth_btn_text">Продолжить</string>
     <string name="your_records_text">Ваши записи</string>
+    <string name="save_record_bottom_sheet_text">Сохранить запись?</string>
+    <string name="cancel_text_btn">Отмена</string>
+    <string name="save_text_btn">Сохранить</string>
 
 </resources>

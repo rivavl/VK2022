@@ -7,10 +7,11 @@ import androidx.room.RoomDatabase
 
 @Database(entities = [RoomRecordItem::class], version = 1, exportSchema = false)
 abstract class RecordDatabase : RoomDatabase() {
+
     abstract val recordDatabaseDao: RecordsDao
 
     companion object {
-        const val DB_NAME: String = "records.db"
+        private const val DB_NAME: String = "records.db"
 
         @Volatile
         private var INSTANCE: RecordDatabase? = null

@@ -1,12 +1,15 @@
 package com.marina.vk2022.data.storage
 
+import androidx.lifecycle.LiveData
 import com.marina.vk2022.domain.entity.Record
 
 interface RecordStorage {
 
-    fun createRecord(): Record
+    fun saveRecord(record: Record)
 
-    fun deleteRecord()
+    fun deleteRecord(record: Record)
 
-    fun playRecord()
+    fun deleteRecord(record: List<Record>)
+
+    suspend fun getAllRecords(): LiveData<List<Record>>
 }

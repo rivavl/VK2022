@@ -5,8 +5,8 @@ import com.marina.vk2022.domain.repository.RecordListRepository
 
 class CreateRecordUseCase(private val recordListRepository: RecordListRepository) {
 
-    operator fun invoke(): RecordItem {
-        return recordListRepository.createRecord()
+    operator fun invoke(recordItem: RecordItem) {
+        return recordListRepository.saveRecord(recordItem)
     }
 
 }

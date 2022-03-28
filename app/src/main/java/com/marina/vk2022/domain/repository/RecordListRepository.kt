@@ -1,13 +1,18 @@
 package com.marina.vk2022.domain.repository
 
+import androidx.lifecycle.LiveData
 import com.marina.vk2022.domain.entity.RecordItem
 
 interface RecordListRepository {
 
-    fun createRecord(): RecordItem
+    fun saveRecord(recordItem: RecordItem)
 
-    fun deleteRecord()
+    fun deleteRecord(recordItem: RecordItem)
 
-    fun playRecord()
+    fun deleteRecord(recordItems: List<RecordItem>)
+
+    suspend fun getAllRecords(): LiveData<List<RecordItem>>
+
+    fun update(recordItem: RecordItem)
 
 }
