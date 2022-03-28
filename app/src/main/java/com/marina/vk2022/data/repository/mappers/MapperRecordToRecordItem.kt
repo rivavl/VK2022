@@ -1,4 +1,4 @@
-package com.marina.vk2022.data.repository
+package com.marina.vk2022.data.repository.mappers
 
 import com.marina.vk2022.domain.entity.Record
 import com.marina.vk2022.domain.entity.RecordItem
